@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 
-const App = () => {
+const Home = () => {
     return (
         <main className='flex mx-auto max-w-6xl px-2 pt-16 md:pt-[125px] flex-col xl:flex-row gap-[100px] justify-center items-center xl:items-start' style={{ fontFamily: 'archivo'}}>
             
@@ -48,7 +48,7 @@ const App = () => {
                       style={{ cursor: 'pointer' }} className='text-[#00E0c3] duration-200'
                   >
                       CONTATOS
-                  </Link> onde podemos se comunicar. 
+                  </Link> por onde podemos se comunicar. 
             </motion.span>
             
             <motion.img 
@@ -64,4 +64,4 @@ const App = () => {
     )
 }
 
-export default App;
+export default Home;
