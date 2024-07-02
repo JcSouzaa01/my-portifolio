@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { motion} from "framer-motion";
 
 const Header = () => {
   const logo1 = "<"
@@ -23,16 +22,13 @@ const Header = () => {
   }, []);
 
   return (
-    <motion.header
+    <header
       style={{
           position: 'fixed',
           zIndex: 1000,
           backgroundColor: isScrolled ? 'rgba(217, 217, 217, 0.4)' : 'transparent',
           transition: 'background-color 0.5s ease',}}
-      className='top-[40px] rounded-full lg:w-[70%] w-full md:px-10 py-[10px] backdrop-blur md:text-xl'
-      initial={{ y: '-100vh'}}
-      animate={{ y: 0 }}
-      transition={{ type: 'spring', stiffness: 50 }}>
+      className='top-[40px] rounded-full lg:w-[70%] w-full md:px-10 py-[10px] backdrop-blur md:text-xl'>
       <nav className='flex justify-between'>
           <Link
               activeClass="active1"
@@ -110,7 +106,7 @@ const Header = () => {
               </li>
           </ul>
       </nav>
-    </motion.header>
+    </header>
   );
 };
 
