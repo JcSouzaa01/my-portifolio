@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Home from './Home';
+import Sobre from './Sobre';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
             </div> 
             SOBRE
           </h2>
-          <div style={{ height: '100vh'}}>Test</div>
+          <Sobre/>
         </section>
 
         <section id="section2" style={{paddingTop: '70px' }} className='flex items-center justify-center flex-col'>
