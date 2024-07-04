@@ -36,7 +36,7 @@ const App = () => {
           </h2>
           <Skills> 
             <SkillsList nome="HTML" imgUrl="/img/Skills/html.png" alt="logo html" title="HTML" />
-            <SkillsList nome="CSS" imgUrl="/img/Skills/Css.png" alt="logo CSS" title="CSS" />
+            <SkillsList nome="CSS" imgUrl="/img/Skills/CSS.png" alt="logo CSS" title="CSS" />
             <SkillsList nome="JS" imgUrl="/img/Skills/JS.png" alt="logo JS" title="JavaScript" />
             <SkillsList nome="Tailwind" imgUrl="/img/Skills/tailwind.png" alt="logo Tailwind" title="TailwindCSS" />
           </Skills>
