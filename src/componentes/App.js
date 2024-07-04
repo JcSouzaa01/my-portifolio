@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header';
 import Home from './Home';
 import Sobre from './Sobre';
+import Skills from './Skills';
+import SkillsList from './Skills-Lists';
 
 const App = () => {
   return (
@@ -25,14 +27,19 @@ const App = () => {
           <Sobre/>
         </section>
 
-        <section id="section2" style={{paddingTop: '70px' }} className='flex items-center justify-center flex-col'>
+        <section id="section2" style={{paddingTop: '70px' }} className='flex items-center justify-center flex-col mb-[15px]'>
           <h2 className='flex text-white text-[28px] items-center gap-1' style={{fontFamily: 'archivo black'}}>
             <div className='w-[12px] h-[12px] bg-[#00E0c3] items-center justify-center flex'>
               <div className='w-[6px] h-[6px] bg-[#07161B]'></div>
             </div> 
             Skills
           </h2>
-          <div style={{ height: '100vh'}}>teste</div>
+          <Skills> 
+            <SkillsList nome="HTML" imgUrl="/img/Skills/html.png" alt="logo html" title="HTML" />
+            <SkillsList nome="CSS" imgUrl="/img/Skills/Css.png" alt="logo CSS" title="CSS" />
+            <SkillsList nome="JS" imgUrl="/img/Skills/JS.png" alt="logo JS" title="JavaScript" />
+            <SkillsList nome="Tailwind" imgUrl="/img/Skills/tailwind.png" alt="logo Tailwind" title="TailwindCSS" />
+          </Skills>
         </section>
         
         <section id="section3" style={{paddingTop: '70px' }} className='flex items-center justify-center flex-col'>
