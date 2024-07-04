@@ -1,0 +1,17 @@
+/* custom-slick.css */
+
+.slick-dots li.slick-active button:before {
+    color: #00E0c3; /* Define a cor dos dots ativos como azul escuro */
+  }
+
+/* custom-slick.css */
+
+.slick-dots li button:before {
+    color: rgb(255, 255, 255); /* Define a cor dos dots como azul */
+}
+
+.slick-dots
+{   
+    position: static;
+    bottom: 0px;
+}
