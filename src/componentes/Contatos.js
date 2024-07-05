@@ -18,7 +18,7 @@ const ContactSection = () => {
                 https://github.com/JcSouzaa01
             </div>
             <div className="hover:underline flex items-center gap-3 flex-col md:flex-row">
-                <a href="https://wa.me/82999889814">
+                <a href="https://wa.me/82999211763">
                     <img src="./img/contato/whatsapp.png" alt="Whatsapp" className="size-10" />
                 </a>
                 (82) 9 9921-1763
