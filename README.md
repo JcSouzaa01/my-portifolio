@@ -1,5 +1,5 @@
 # Portfólio de José Charles de Souza Moura
-SITE: [https://my-portifolio-charles.vercel.app/](https://my-portifolio-charles.vercel.app/)
+SITE: [https://charlessouza.vercel.app/](https://charlessouza.vercel.app/)
 
 Bem-vindo ao meu portfólio online! Aqui você encontrará uma coleção dos meus projetos de desenvolvimento, habilidades e informações de contato.
 
