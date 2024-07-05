@@ -4,6 +4,8 @@ import Home from './Home';
 import Sobre from './Sobre';
 import Skills from './Skills';
 import SkillsList from './Skills-Lists';
+import Projetos from './Projetos';
+import Contatos from './Contatos';
 
 const App = () => {
   return (
@@ -19,8 +21,7 @@ const App = () => {
           className='flex text-white text-[28px] items-center gap-1' 
           style={{fontFamily: 'archivo black'}}>
             <div className='w-[12px] h-[12px] bg-[#00E0c3] items-center justify-center flex'>
-              <div className='w-[6px] h-[6px] bg-[#07161B]'>
-              </div>
+              <div className='w-[6px] h-[6px] bg-[#07161B]'></div>
             </div> 
             SOBRE
           </h2>
@@ -49,7 +50,7 @@ const App = () => {
             </div> 
             Projetos
           </h2>
-          <div style={{ height: '100vh'}}>teste</div>
+          <div className='mt-[70px]'><Projetos/></div>
         </section>
         
         <section id="section4" style={{paddingTop: '70px' }} className='flex items-center justify-center flex-col'>
@@ -59,7 +60,7 @@ const App = () => {
             </div> 
             Contrato
           </h2>
-          <div style={{ height: '100vh'}}>teste</div>
+          <div><Contatos/></div>
         </section>
       </main>
     </div>

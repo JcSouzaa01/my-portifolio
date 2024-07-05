@@ -1,0 +1,9 @@
+.slick-slide {
+    padding: 0 10px; /* Ajuste o valor conforme necessário */
+}
+  
+.slick-list {
+    margin: 0 -10px; /* Deve ser o negativo do padding */
+}
+
+  
