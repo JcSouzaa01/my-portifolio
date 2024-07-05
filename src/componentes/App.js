@@ -6,6 +6,7 @@ import Skills from './Skills';
 import SkillsList from './Skills-Lists';
 import Projetos from './Projetos';
 import Contatos from './Contatos';
+import Footer from './Footer'
 
 const App = () => {
   return (
@@ -63,6 +64,7 @@ const App = () => {
           <div><Contatos/></div>
         </section>
       </main>
+      <Footer/>
     </div>
   );
 };
