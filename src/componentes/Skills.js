@@ -50,7 +50,7 @@ function Responsive(props) {
     };
     return (
         <main className='flex mx-auto max-w-5xl px-2 justify-center items-center mt-[70px]'>
-            <div className="slider-container w-[250px] md:w-[600px]">
+            <div className="slider-container w-[250px] md:w-[600px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.70)]">
                 <Slider {...settings} className=''>
                     {props.children}
                 </Slider>

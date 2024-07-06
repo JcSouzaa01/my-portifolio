@@ -1,12 +1,11 @@
 import React from 'react';
 
-
 const Sobre = () => {
   return (
     <main className='flex mx-auto max-w-5xl px-2 justify-center items-center mt-[70px]'>
-        <div className=' bg-[#3D737F] flex justify-start items-center flex-col p-7 rounded-tl-[100px] rounded-br-[100px] rounded-tr-lg rounded-bl-lg md:flex-row md:justify-evenly gap-7 md:gap-0'>
+        <div className=' bg-[#3D737F] flex justify-start items-center flex-col p-7 drop-shadow-[0_10px_10px_rgba(0,0,0,0.70)] rounded-tl-[100px] rounded-br-[100px] rounded-tr-lg rounded-bl-lg md:flex-row md:justify-evenly gap-7 md:gap-0'>
             <div class="flex justify-center items-center flex-col gap-2">
-                <img src="/img/sobre/my-foto.png" alt="Minha foto" title='Charles Souza' className=' size-44 border-[3px] border-[#00E0c3] rounded-full'/>
+                <img src="/img/sobre/my-foto1.png" alt="Minha foto" title='Charles Souza' className='img1 size-44 border-[3px] border-[#00E0c3] rounded-full'/>
                 <h1 style={{ fontFamily: 'archivo'}} className='text-4xl text-white'>Charles Souza</h1>
                 <div className='flex gap-2'>
                     <a href="https://www.instagram.com/_jc.s0uza/">

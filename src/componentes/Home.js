@@ -50,7 +50,7 @@ const Home = () => {
                 src='/img/home/img1.png' 
                 alt='Imagem Ilustrativa' 
                 title='Imagem Ilustrativa' 
-                className='size-[350px] md:size-[500px]'/>
+                className='size-[350px] md:size-[500px] drop-shadow-[0_15px_15px_rgba(0,0,0,0.70)]'/>
         </main>
     )
 }
