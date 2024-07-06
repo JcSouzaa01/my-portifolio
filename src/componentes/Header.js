@@ -101,7 +101,7 @@ const Header = () => {
                       duration={500}
                       style={{ cursor: 'pointer' }} className='text-white'
                   >
-                      Contato
+                      Contatos
                   </Link>
               </li>
           </ul>
