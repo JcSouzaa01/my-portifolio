@@ -63,7 +63,7 @@ const ProjetosCard = () => {
   };
 
   return (
-    <div className="p-2 w-[300px] md:w-[600px]">
+    <div className="p-2 w-[300px] md:w-[600px] drop-shadow-[0_10px_10px_rgba(0,0,0,0.70)]">
       <Slider {...settings}>
         <Card 
           imageSrc="./img/Projetos/cardapio1.png" 

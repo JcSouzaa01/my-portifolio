@@ -28,7 +28,7 @@ const Header = () => {
           zIndex: 1000,
           backgroundColor: isScrolled ? 'rgba(217, 217, 217, 0.4)' : 'transparent',
           transition: 'background-color 0.5s ease',}}
-      className='top-[40px] rounded-full lg:w-[70%] w-full md:px-10 py-[10px] backdrop-blur md:text-xl'>
+      className={`top-[40px] rounded-full lg:w-[70%] w-full md:px-10 py-[10px] md:text-xl ${isScrolled ? 'backdrop-blur drop-shadow-[0_5px_5px_rgba(0,0,0,0.90)]' : ''}`}>
       <nav className='flex justify-between'>
           <Link
               activeClass="active1"
