@@ -59,7 +59,7 @@ const App = () => {
             <div className='w-[12px] h-[12px] bg-[#00E0c3] items-center justify-center flex'>
               <div className='w-[6px] h-[6px] bg-[#07161B]'></div>
             </div> 
-            Contrato
+            Contatos
           </h2>
           <div><Contatos/></div>
         </section>
